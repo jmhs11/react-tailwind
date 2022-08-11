@@ -1,8 +1,11 @@
 const Button = ({ text, handleClick }) => {
 	return (
-		<div className='btn btn-primary' onClick={handleClick}>
+		<button
+			className='bg-blue-500 rounded font-bold text-white p-4'
+			onClick={handleClick}
+		>
 			{text}
-		</div>
+		</button>
 	);
 };
 
